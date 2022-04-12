@@ -448,6 +448,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "openscad",
+    "full-name": "OpenSCAD",
+    "server-name": "openscad-language-server",
+    "server-url": "https://github.com/dzhu/openscad-language-server",
+    "installation-url": "https://github.com/dzhu/openscad-language-server",
+    "installation": "cargo install openscad-language-server",
+    "debugger": "Not available"
+  },
+  {
     "name": "pascal",
     "full-name": "Pascal/Object Pascal",
     "server-name": "pascal-language-server",
@@ -736,10 +745,9 @@
   {
     "name": "toml",
     "full-name": "TOML",
-    "server-name": "taplo-lsp",
-    "server-url": "https://github.com/tamasfe/taplo/tree/master/taplo-lsp",
-    "installation-url": "https://taplo.tamasfe.dev/lsp/",
-    "installation": "cargo install taplo-lsp",
+    "server-name": "taplo",
+    "server-url": "https://github.com/tamasfe/taplo",
+    "installation": "cargo install taplo-cli",
     "debugger": "Not available"
   },
   {
