@@ -12,21 +12,21 @@
         <meta name="author" content="ercdll1337@gmail.com">
       
       
-        <link rel="canonical" href="https://emacs-lsp.github.io/lsp-mode/page/settings/semantic-tokens/">
+        <link rel="canonical" href="https://emacs-lsp.github.io/lsp-mode/page/lsp-pls/">
       
-      <link rel="icon" href="../../../examples/logo-mini.png">
+      <link rel="icon" href="../../examples/logo-mini.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.0.0">
     
     
       
-        <title>Semantic Tokens - LSP Mode - LSP support for Emacs</title>
+        <title>Perl (PLS) - LSP Mode - LSP support for Emacs</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.ad626c1e.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ad626c1e.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9204c3b2.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9204c3b2.min.css">
         
       
     
@@ -40,11 +40,11 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/layout.css">
+      <link rel="stylesheet" href="../../stylesheets/layout.css">
     
-      <link rel="stylesheet" href="../../../stylesheets/members.css">
+      <link rel="stylesheet" href="../../stylesheets/members.css">
     
-    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"../../..":"../../.."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"../..":"../.."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
     
       
   
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#semantic-tokens" class="md-skip">
+        <a href="#pls" class="md-skip">
           Skip to content
         </a>
       
@@ -94,9 +94,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="LSP Mode - LSP support for Emacs" class="md-header__button md-logo" aria-label="LSP Mode - LSP support for Emacs" data-md-component="logo">
+    <a href="../.." title="LSP Mode - LSP support for Emacs" class="md-header__button md-logo" aria-label="LSP Mode - LSP support for Emacs" data-md-component="logo">
       
-  <img src="../../../examples/logo-mini.png" alt="logo">
+  <img src="../../examples/logo-mini.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Semantic Tokens
+              Perl (PLS)
             
           </span>
         </div>
@@ -190,7 +190,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         Home
       </a>
     </li>
@@ -199,8 +199,6 @@
       
         
   
-  
-    
   
 
 
@@ -213,7 +211,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../mode/" class="md-tabs__link md-tabs__link--active">
+      <a href="../settings/mode/" class="md-tabs__link">
         Settings
       </a>
     </li>
@@ -225,13 +223,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../languages/" class="md-tabs__link">
+      <a href="../languages/" class="md-tabs__link md-tabs__link--active">
         Languages
       </a>
     </li>
@@ -263,7 +263,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../gallery/" class="md-tabs__link">
+      <a href="../gallery/" class="md-tabs__link">
         Gallery
       </a>
     </li>
@@ -279,7 +279,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../CHANGELOG/" class="md-tabs__link">
+      <a href="../CHANGELOG/" class="md-tabs__link">
         Changelog
       </a>
     </li>
@@ -295,7 +295,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../tutorials/CPP-guide/" class="md-tabs__link">
+      <a href="../../tutorials/CPP-guide/" class="md-tabs__link">
         Tutorials
       </a>
     </li>
@@ -316,7 +316,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../../blog/2020/7.0-release/" class="md-tabs__link">
+      <a href="../../blog/2020/7.0-release/" class="md-tabs__link">
         Blog
       </a>
     </li>
@@ -362,9 +362,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="LSP Mode - LSP support for Emacs" class="md-nav__button md-logo" aria-label="LSP Mode - LSP support for Emacs" data-md-component="logo">
+    <a href="../.." title="LSP Mode - LSP support for Emacs" class="md-nav__button md-logo" aria-label="LSP Mode - LSP support for Emacs" data-md-component="logo">
       
-  <img src="../../../examples/logo-mini.png" alt="logo">
+  <img src="../../examples/logo-mini.png" alt="logo">
 
     </a>
     LSP Mode - LSP support for Emacs
@@ -418,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Overview
       </a>
     </li>
@@ -458,7 +458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../installation/" class="md-nav__link">
+      <a href="../installation/" class="md-nav__link">
         Installation
       </a>
     </li>
@@ -472,7 +472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../performance/" class="md-nav__link">
+      <a href="../performance/" class="md-nav__link">
         Performance
       </a>
     </li>
@@ -493,7 +493,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../main-features/" class="md-nav__link">
+      <a href="../main-features/" class="md-nav__link">
         Main features
       </a>
     </li>
@@ -507,7 +507,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../keybindings/" class="md-nav__link">
+      <a href="../keybindings/" class="md-nav__link">
         Keybindings
       </a>
     </li>
@@ -603,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../integration/iedit/" class="md-nav__link">
+      <a href="../integration/iedit/" class="md-nav__link">
         Iedit
       </a>
     </li>
@@ -617,7 +617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../integration/ido/" class="md-nav__link">
+      <a href="../integration/ido/" class="md-nav__link">
         Ido
       </a>
     </li>
@@ -638,7 +638,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../file-watchers/" class="md-nav__link">
+      <a href="../file-watchers/" class="md-nav__link">
         File watchers
       </a>
     </li>
@@ -652,7 +652,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../remote/" class="md-nav__link">
+      <a href="../remote/" class="md-nav__link">
         Remote
       </a>
     </li>
@@ -666,7 +666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
+      <a href="../faq/" class="md-nav__link">
         FAQ
       </a>
     </li>
@@ -680,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../troubleshooting/" class="md-nav__link">
+      <a href="../troubleshooting/" class="md-nav__link">
         Troubleshooting
       </a>
     </li>
@@ -694,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../adding-new-language/" class="md-nav__link">
+      <a href="../adding-new-language/" class="md-nav__link">
         Adding new language
       </a>
     </li>
@@ -714,14 +714,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
       
       
       
@@ -742,14 +740,12 @@
               
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
       
       
       
@@ -772,7 +768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../mode/" class="md-nav__link">
+      <a href="../settings/mode/" class="md-nav__link">
         Core
       </a>
     </li>
@@ -786,7 +782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../completion/" class="md-nav__link">
+      <a href="../settings/completion/" class="md-nav__link">
         Completion
       </a>
     </li>
@@ -800,7 +796,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../diagnostics/" class="md-nav__link">
+      <a href="../settings/diagnostics/" class="md-nav__link">
         Diagnostics
       </a>
     </li>
@@ -814,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../headerline/" class="md-nav__link">
+      <a href="../settings/headerline/" class="md-nav__link">
         Headerline
       </a>
     </li>
@@ -828,7 +824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../modeline/" class="md-nav__link">
+      <a href="../settings/modeline/" class="md-nav__link">
         Modeline
       </a>
     </li>
@@ -842,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../lens/" class="md-nav__link">
+      <a href="../settings/lens/" class="md-nav__link">
         Lens
       </a>
     </li>
@@ -856,7 +852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../icons/" class="md-nav__link">
+      <a href="../settings/icons/" class="md-nav__link">
         Icons
       </a>
     </li>
@@ -868,290 +864,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Semantic Tokens
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../settings/semantic-tokens/" class="md-nav__link">
         Semantic Tokens
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-class" class="md-nav__link">
-    lsp-face-semhl-class
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-comment" class="md-nav__link">
-    lsp-face-semhl-comment
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-constant" class="md-nav__link">
-    lsp-face-semhl-constant
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-default-library" class="md-nav__link">
-    lsp-face-semhl-default-library
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-definition" class="md-nav__link">
-    lsp-face-semhl-definition
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-deprecated" class="md-nav__link">
-    lsp-face-semhl-deprecated
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-enum" class="md-nav__link">
-    lsp-face-semhl-enum
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-event" class="md-nav__link">
-    lsp-face-semhl-event
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-function" class="md-nav__link">
-    lsp-face-semhl-function
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-implementation" class="md-nav__link">
-    lsp-face-semhl-implementation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-interface" class="md-nav__link">
-    lsp-face-semhl-interface
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-keyword" class="md-nav__link">
-    lsp-face-semhl-keyword
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-label" class="md-nav__link">
-    lsp-face-semhl-label
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-macro" class="md-nav__link">
-    lsp-face-semhl-macro
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-member" class="md-nav__link">
-    lsp-face-semhl-member
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-method" class="md-nav__link">
-    lsp-face-semhl-method
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-namespace" class="md-nav__link">
-    lsp-face-semhl-namespace
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-number" class="md-nav__link">
-    lsp-face-semhl-number
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-operator" class="md-nav__link">
-    lsp-face-semhl-operator
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-parameter" class="md-nav__link">
-    lsp-face-semhl-parameter
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-property" class="md-nav__link">
-    lsp-face-semhl-property
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-regexp" class="md-nav__link">
-    lsp-face-semhl-regexp
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-static" class="md-nav__link">
-    lsp-face-semhl-static
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-string" class="md-nav__link">
-    lsp-face-semhl-string
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-struct" class="md-nav__link">
-    lsp-face-semhl-struct
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-type" class="md-nav__link">
-    lsp-face-semhl-type
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-type-parameter" class="md-nav__link">
-    lsp-face-semhl-type-parameter
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-variable" class="md-nav__link">
-    lsp-face-semhl-variable
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-allow-delta-requests" class="md-nav__link">
-    lsp-semantic-tokens-allow-delta-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-allow-ranged-requests" class="md-nav__link">
-    lsp-semantic-tokens-allow-ranged-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-apply-modifiers" class="md-nav__link">
-    lsp-semantic-tokens-apply-modifiers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-enable" class="md-nav__link">
-    lsp-semantic-tokens-enable
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-honor-refresh-requests" class="md-nav__link">
-    lsp-semantic-tokens-honor-refresh-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-max-concurrent-idle-requests" class="md-nav__link">
-    lsp-semantic-tokens-max-concurrent-idle-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-warn-on-missing-face" class="md-nav__link">
-    lsp-semantic-tokens-warn-on-missing-face
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1266,7 +983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../dired/" class="md-nav__link">
+      <a href="../settings/dired/" class="md-nav__link">
         Dired
       </a>
     </li>
@@ -1280,7 +997,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../iedit/" class="md-nav__link">
+      <a href="../settings/iedit/" class="md-nav__link">
         Iedit
       </a>
     </li>
@@ -1294,7 +1011,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ido/" class="md-nav__link">
+      <a href="../settings/ido/" class="md-nav__link">
         Ido
       </a>
     </li>
@@ -1321,12 +1038,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -1349,7 +1068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../languages/" class="md-nav__link">
+      <a href="../languages/" class="md-nav__link">
         Languages
       </a>
     </li>
@@ -1363,7 +1082,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-actionscript/" class="md-nav__link">
+      <a href="../lsp-actionscript/" class="md-nav__link">
         ActionScript
       </a>
     </li>
@@ -1377,7 +1096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-ada/" class="md-nav__link">
+      <a href="../lsp-ada/" class="md-nav__link">
         Ada
       </a>
     </li>
@@ -1391,7 +1110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-angular/" class="md-nav__link">
+      <a href="../lsp-angular/" class="md-nav__link">
         Angular
       </a>
     </li>
@@ -1405,7 +1124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-ansible/" class="md-nav__link">
+      <a href="../lsp-ansible/" class="md-nav__link">
         Ansible
       </a>
     </li>
@@ -1419,7 +1138,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-bash/" class="md-nav__link">
+      <a href="../lsp-bash/" class="md-nav__link">
         Bash
       </a>
     </li>
@@ -1433,7 +1152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-beancount/" class="md-nav__link">
+      <a href="../lsp-beancount/" class="md-nav__link">
         Beancount
       </a>
     </li>
@@ -1447,7 +1166,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-camel/" class="md-nav__link">
+      <a href="../lsp-camel/" class="md-nav__link">
         Camel
       </a>
     </li>
@@ -1461,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-ccls/" class="md-nav__link">
+      <a href="../lsp-ccls/" class="md-nav__link">
         C++ (ccls)
       </a>
     </li>
@@ -1475,7 +1194,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-clangd/" class="md-nav__link">
+      <a href="../lsp-clangd/" class="md-nav__link">
         C++ (clangd)
       </a>
     </li>
@@ -1489,7 +1208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-csharp-omnisharp/" class="md-nav__link">
+      <a href="../lsp-csharp-omnisharp/" class="md-nav__link">
         C# (omnisharp-roslyn)
       </a>
     </li>
@@ -1503,7 +1222,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-csharp-ls/" class="md-nav__link">
+      <a href="../lsp-csharp-ls/" class="md-nav__link">
         C# (csharp-ls)
       </a>
     </li>
@@ -1517,7 +1236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-clojure/" class="md-nav__link">
+      <a href="../lsp-clojure/" class="md-nav__link">
         Clojure
       </a>
     </li>
@@ -1531,7 +1250,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-cmake/" class="md-nav__link">
+      <a href="../lsp-cmake/" class="md-nav__link">
         CMake
       </a>
     </li>
@@ -1545,7 +1264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-crystal/" class="md-nav__link">
+      <a href="../lsp-crystal/" class="md-nav__link">
         Crystal
       </a>
     </li>
@@ -1559,7 +1278,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-css/" class="md-nav__link">
+      <a href="../lsp-css/" class="md-nav__link">
         CSS/LessCSS/SASS/SCSS
       </a>
     </li>
@@ -1573,7 +1292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-d/" class="md-nav__link">
+      <a href="../lsp-d/" class="md-nav__link">
         D
       </a>
     </li>
@@ -1601,7 +1320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-dhall/" class="md-nav__link">
+      <a href="../lsp-dhall/" class="md-nav__link">
         Dhall
       </a>
     </li>
@@ -1615,7 +1334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-dockerfile/" class="md-nav__link">
+      <a href="../lsp-dockerfile/" class="md-nav__link">
         Dockerfile
       </a>
     </li>
@@ -1629,7 +1348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-elixir/" class="md-nav__link">
+      <a href="../lsp-elixir/" class="md-nav__link">
         Elixir
       </a>
     </li>
@@ -1643,7 +1362,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-elm/" class="md-nav__link">
+      <a href="../lsp-elm/" class="md-nav__link">
         Elm
       </a>
     </li>
@@ -1657,7 +1376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-emmet/" class="md-nav__link">
+      <a href="../lsp-emmet/" class="md-nav__link">
         Emmet
       </a>
     </li>
@@ -1671,7 +1390,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-erlang/" class="md-nav__link">
+      <a href="../lsp-erlang/" class="md-nav__link">
         Erlang
       </a>
     </li>
@@ -1685,7 +1404,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-eslint/" class="md-nav__link">
+      <a href="../lsp-eslint/" class="md-nav__link">
         Eslint
       </a>
     </li>
@@ -1699,7 +1418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-fsharp/" class="md-nav__link">
+      <a href="../lsp-fsharp/" class="md-nav__link">
         F#
       </a>
     </li>
@@ -1713,7 +1432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-fortran/" class="md-nav__link">
+      <a href="../lsp-fortran/" class="md-nav__link">
         Fortran
       </a>
     </li>
@@ -1727,7 +1446,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-gdscript/" class="md-nav__link">
+      <a href="../lsp-gdscript/" class="md-nav__link">
         GDScript
       </a>
     </li>
@@ -1741,7 +1460,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-gleam/" class="md-nav__link">
+      <a href="../lsp-gleam/" class="md-nav__link">
         Gleam
       </a>
     </li>
@@ -1755,7 +1474,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../manual-language-docs/lsp-gopls/" class="md-nav__link">
+      <a href="../../manual-language-docs/lsp-gopls/" class="md-nav__link">
         Go (gopls)
       </a>
     </li>
@@ -1769,7 +1488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-grammarly/" class="md-nav__link">
+      <a href="../lsp-grammarly/" class="md-nav__link">
         Grammarly
       </a>
     </li>
@@ -1783,7 +1502,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-graphql/" class="md-nav__link">
+      <a href="../lsp-graphql/" class="md-nav__link">
         GraphQL
       </a>
     </li>
@@ -1797,7 +1516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-groovy/" class="md-nav__link">
+      <a href="../lsp-groovy/" class="md-nav__link">
         Groovy
       </a>
     </li>
@@ -1811,7 +1530,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-hack/" class="md-nav__link">
+      <a href="../lsp-hack/" class="md-nav__link">
         Hack
       </a>
     </li>
@@ -1825,7 +1544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-html/" class="md-nav__link">
+      <a href="../lsp-html/" class="md-nav__link">
         HTML
       </a>
     </li>
@@ -1853,7 +1572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-idris/" class="md-nav__link">
+      <a href="../lsp-idris/" class="md-nav__link">
         Idris
       </a>
     </li>
@@ -1881,7 +1600,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-deno/" class="md-nav__link">
+      <a href="../lsp-deno/" class="md-nav__link">
         Javascript/Typescript (deno)
       </a>
     </li>
@@ -1895,7 +1614,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-typescript-javascript/" class="md-nav__link">
+      <a href="../lsp-typescript-javascript/" class="md-nav__link">
         JavaScript/TypeScript (sourcegraph)
       </a>
     </li>
@@ -1909,7 +1628,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-typescript/" class="md-nav__link">
+      <a href="../lsp-typescript/" class="md-nav__link">
         JavaScript/TypeScript (theia-ide)
       </a>
     </li>
@@ -1923,7 +1642,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-flow/" class="md-nav__link">
+      <a href="../lsp-flow/" class="md-nav__link">
         JavaScript Flow
       </a>
     </li>
@@ -1937,7 +1656,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-json/" class="md-nav__link">
+      <a href="../lsp-json/" class="md-nav__link">
         Json
       </a>
     </li>
@@ -1951,7 +1670,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-julia/" class="md-nav__link">
+      <a href="../lsp-julia/" class="md-nav__link">
         Julia
       </a>
     </li>
@@ -1965,7 +1684,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-kotlin/" class="md-nav__link">
+      <a href="../lsp-kotlin/" class="md-nav__link">
         Kotlin
       </a>
     </li>
@@ -1979,7 +1698,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-ltex/" class="md-nav__link">
+      <a href="../lsp-ltex/" class="md-nav__link">
         LanguageTool (LTEX)
       </a>
     </li>
@@ -1993,7 +1712,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-emmy-lua/" class="md-nav__link">
+      <a href="../lsp-emmy-lua/" class="md-nav__link">
         Lua (EmmyLua)
       </a>
     </li>
@@ -2007,7 +1726,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-lua-language-server/" class="md-nav__link">
+      <a href="../lsp-lua-language-server/" class="md-nav__link">
         Lua (Lua Language Server)
       </a>
     </li>
@@ -2021,7 +1740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-lua-lsp/" class="md-nav__link">
+      <a href="../lsp-lua-lsp/" class="md-nav__link">
         Lua (Lua-Lsp)
       </a>
     </li>
@@ -2035,7 +1754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-magik/" class="md-nav__link">
+      <a href="../lsp-magik/" class="md-nav__link">
         Magik
       </a>
     </li>
@@ -2049,7 +1768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-markdown/" class="md-nav__link">
+      <a href="../lsp-markdown/" class="md-nav__link">
         Markdown
       </a>
     </li>
@@ -2063,7 +1782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-marksman/" class="md-nav__link">
+      <a href="../lsp-marksman/" class="md-nav__link">
         Marksman
       </a>
     </li>
@@ -2091,7 +1810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-nginx/" class="md-nav__link">
+      <a href="../lsp-nginx/" class="md-nav__link">
         Nginx
       </a>
     </li>
@@ -2105,7 +1824,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-nim/" class="md-nav__link">
+      <a href="../lsp-nim/" class="md-nav__link">
         Nim
       </a>
     </li>
@@ -2119,7 +1838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-nix/" class="md-nav__link">
+      <a href="../lsp-nix/" class="md-nav__link">
         Nix
       </a>
     </li>
@@ -2133,7 +1852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-ocaml-lsp-server/" class="md-nav__link">
+      <a href="../lsp-ocaml-lsp-server/" class="md-nav__link">
         OCaml (ocaml-lsp)
       </a>
     </li>
@@ -2147,7 +1866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-openscad/" class="md-nav__link">
+      <a href="../lsp-openscad/" class="md-nav__link">
         OpenSCAD
       </a>
     </li>
@@ -2161,7 +1880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-pascal/" class="md-nav__link">
+      <a href="../lsp-pascal/" class="md-nav__link">
         Pascal/Object Pascal
       </a>
     </li>
@@ -2173,11 +1892,155 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../../lsp-pls/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Perl (PLS)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Perl (PLS)
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#server" class="md-nav__link">
+    Server
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    Installation
+  </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debugger-not-available" class="md-nav__link">
+    Debugger: Not available
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#available-configurations" class="md-nav__link">
+    Available configurations
+  </a>
+  
+    <nav class="md-nav" aria-label="Available configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-arguments" class="md-nav__link">
+    lsp-pls-arguments
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-executable" class="md-nav__link">
+    lsp-pls-executable
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-include" class="md-nav__link">
+    lsp-pls-include
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-perlcritic-enabled" class="md-nav__link">
+    lsp-pls-perlcritic-enabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-perlcritic-rc" class="md-nav__link">
+    lsp-pls-perlcritic-rc
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-perltidy-rc" class="md-nav__link">
+    lsp-pls-perltidy-rc
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-syntax-args" class="md-nav__link">
+    lsp-pls-syntax-args
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-syntax-enabled" class="md-nav__link">
+    lsp-pls-syntax-enabled
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-syntax-perl" class="md-nav__link">
+    lsp-pls-syntax-perl
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-working-dir" class="md-nav__link">
+    lsp-pls-working-dir
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -2189,7 +2052,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-perl/" class="md-nav__link">
+      <a href="../lsp-perl/" class="md-nav__link">
         Perl (Perl::LanguageServer)
       </a>
     </li>
@@ -2203,7 +2066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-perlnavigator/" class="md-nav__link">
+      <a href="../lsp-perlnavigator/" class="md-nav__link">
         Perl (Navigator)
       </a>
     </li>
@@ -2217,7 +2080,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-intelephense/" class="md-nav__link">
+      <a href="../lsp-intelephense/" class="md-nav__link">
         PHP (intelephense)
       </a>
     </li>
@@ -2231,7 +2094,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-serenata/" class="md-nav__link">
+      <a href="../lsp-serenata/" class="md-nav__link">
         PHP (Serenata)
       </a>
     </li>
@@ -2245,7 +2108,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-php/" class="md-nav__link">
+      <a href="../lsp-php/" class="md-nav__link">
         PHP (felixbecker)
       </a>
     </li>
@@ -2259,7 +2122,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-phpactor/" class="md-nav__link">
+      <a href="../lsp-phpactor/" class="md-nav__link">
         PHP (phpactor)
       </a>
     </li>
@@ -2273,7 +2136,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-pwsh/" class="md-nav__link">
+      <a href="../lsp-pwsh/" class="md-nav__link">
         Powershell
       </a>
     </li>
@@ -2287,7 +2150,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-prolog/" class="md-nav__link">
+      <a href="../lsp-prolog/" class="md-nav__link">
         Prolog
       </a>
     </li>
@@ -2301,7 +2164,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-purescript/" class="md-nav__link">
+      <a href="../lsp-purescript/" class="md-nav__link">
         PureScript
       </a>
     </li>
@@ -2315,7 +2178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-pylsp/" class="md-nav__link">
+      <a href="../lsp-pylsp/" class="md-nav__link">
         Python (Pylsp)
       </a>
     </li>
@@ -2329,7 +2192,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-jedi/" class="md-nav__link">
+      <a href="../lsp-jedi/" class="md-nav__link">
         Python (Jedi Language Server)
       </a>
     </li>
@@ -2343,7 +2206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-pyls/" class="md-nav__link">
+      <a href="../lsp-pyls/" class="md-nav__link">
         Python (Palantir deprecated)
       </a>
     </li>
@@ -2385,7 +2248,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-r/" class="md-nav__link">
+      <a href="../lsp-r/" class="md-nav__link">
         R
       </a>
     </li>
@@ -2399,7 +2262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-racket-langserver/" class="md-nav__link">
+      <a href="../lsp-racket-langserver/" class="md-nav__link">
         Racket (jeapostrophe)
       </a>
     </li>
@@ -2413,7 +2276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-racket-language-server/" class="md-nav__link">
+      <a href="../lsp-racket-language-server/" class="md-nav__link">
         Racket (Theia)
       </a>
     </li>
@@ -2427,7 +2290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-solargraph/" class="md-nav__link">
+      <a href="../lsp-solargraph/" class="md-nav__link">
         Ruby (Solargraph)
       </a>
     </li>
@@ -2441,7 +2304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-sorbet/" class="md-nav__link">
+      <a href="../lsp-sorbet/" class="md-nav__link">
         Ruby (Sorbet)
       </a>
     </li>
@@ -2455,7 +2318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-steep/" class="md-nav__link">
+      <a href="../lsp-steep/" class="md-nav__link">
         Ruby (Steep)
       </a>
     </li>
@@ -2469,7 +2332,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-typeprof/" class="md-nav__link">
+      <a href="../lsp-typeprof/" class="md-nav__link">
         Ruby (TypeProf)
       </a>
     </li>
@@ -2483,7 +2346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-rust-analyzer/" class="md-nav__link">
+      <a href="../lsp-rust-analyzer/" class="md-nav__link">
         Rust (rust-analyzer)
       </a>
     </li>
@@ -2497,7 +2360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-rust-rls/" class="md-nav__link">
+      <a href="../lsp-rust-rls/" class="md-nav__link">
         Rust (rls)
       </a>
     </li>
@@ -2525,7 +2388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-sqls/" class="md-nav__link">
+      <a href="../lsp-sqls/" class="md-nav__link">
         SQL (sqls)
       </a>
     </li>
@@ -2539,7 +2402,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-svelte/" class="md-nav__link">
+      <a href="../lsp-svelte/" class="md-nav__link">
         Svelte
       </a>
     </li>
@@ -2567,7 +2430,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-terraform/" class="md-nav__link">
+      <a href="../lsp-terraform/" class="md-nav__link">
         Terraform (terraform-lsp)
       </a>
     </li>
@@ -2581,7 +2444,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-terraform-ls/" class="md-nav__link">
+      <a href="../lsp-terraform-ls/" class="md-nav__link">
         Terraform (terraform-ls)
       </a>
     </li>
@@ -2595,7 +2458,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-tex/" class="md-nav__link">
+      <a href="../lsp-tex/" class="md-nav__link">
         TeX, LaTeX, etc (digestif)
       </a>
     </li>
@@ -2609,7 +2472,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-texlab/" class="md-nav__link">
+      <a href="../lsp-texlab/" class="md-nav__link">
         TeX, LaTeX, etc (texlab)
       </a>
     </li>
@@ -2623,7 +2486,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-latex/" class="md-nav__link">
+      <a href="../lsp-latex/" class="md-nav__link">
         TeX, LaTeX, etc (texlab, external)
       </a>
     </li>
@@ -2637,7 +2500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-toml/" class="md-nav__link">
+      <a href="../lsp-toml/" class="md-nav__link">
         TOML
       </a>
     </li>
@@ -2651,7 +2514,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-ttcn3/" class="md-nav__link">
+      <a href="../lsp-ttcn3/" class="md-nav__link">
         TTCN3
       </a>
     </li>
@@ -2665,7 +2528,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-v/" class="md-nav__link">
+      <a href="../lsp-v/" class="md-nav__link">
         V
       </a>
     </li>
@@ -2679,7 +2542,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-vala/" class="md-nav__link">
+      <a href="../lsp-vala/" class="md-nav__link">
         Vala
       </a>
     </li>
@@ -2693,7 +2556,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-verilog/" class="md-nav__link">
+      <a href="../lsp-verilog/" class="md-nav__link">
         Verilog/SystemVerilog (hdl-checker)
       </a>
     </li>
@@ -2707,7 +2570,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-svlangserver/" class="md-nav__link">
+      <a href="../lsp-svlangserver/" class="md-nav__link">
         Verilog/SystemVerilog (svlangserver)
       </a>
     </li>
@@ -2721,7 +2584,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-vhdl/" class="md-nav__link">
+      <a href="../lsp-vhdl/" class="md-nav__link">
         VHDL
       </a>
     </li>
@@ -2735,7 +2598,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-vimscript/" class="md-nav__link">
+      <a href="../lsp-vimscript/" class="md-nav__link">
         Vimscript
       </a>
     </li>
@@ -2749,7 +2612,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-vetur/" class="md-nav__link">
+      <a href="../lsp-vetur/" class="md-nav__link">
         Vue 2
       </a>
     </li>
@@ -2763,7 +2626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-volar/" class="md-nav__link">
+      <a href="../lsp-volar/" class="md-nav__link">
         Vue 3
       </a>
     </li>
@@ -2777,7 +2640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-xml/" class="md-nav__link">
+      <a href="../lsp-xml/" class="md-nav__link">
         XML
       </a>
     </li>
@@ -2791,7 +2654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-yaml/" class="md-nav__link">
+      <a href="../lsp-yaml/" class="md-nav__link">
         YAML
       </a>
     </li>
@@ -2805,7 +2668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../lsp-zig/" class="md-nav__link">
+      <a href="../lsp-zig/" class="md-nav__link">
         Zig
       </a>
     </li>
@@ -2901,7 +2764,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../gallery/" class="md-nav__link">
+      <a href="../gallery/" class="md-nav__link">
         Gallery
       </a>
     </li>
@@ -2949,7 +2812,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../CHANGELOG/" class="md-nav__link">
+      <a href="../CHANGELOG/" class="md-nav__link">
         Changelog
       </a>
     </li>
@@ -2997,7 +2860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorials/CPP-guide/" class="md-nav__link">
+      <a href="../../tutorials/CPP-guide/" class="md-nav__link">
         Configuring Emacs as a C/C++ IDE
       </a>
     </li>
@@ -3011,7 +2874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorials/php-guide/" class="md-nav__link">
+      <a href="../../tutorials/php-guide/" class="md-nav__link">
         Configuring Emacs as a PHP IDE
       </a>
     </li>
@@ -3025,7 +2888,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorials/how-to-turn-off/" class="md-nav__link">
+      <a href="../../tutorials/how-to-turn-off/" class="md-nav__link">
         A guide on disabling/enabling lsp-mode features
       </a>
     </li>
@@ -3039,7 +2902,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorials/reactjs-tutorial/" class="md-nav__link">
+      <a href="../../tutorials/reactjs-tutorial/" class="md-nav__link">
         React JavaScript Tutorial in Emacs
       </a>
     </li>
@@ -3053,7 +2916,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorials/clojure-guide/" class="md-nav__link">
+      <a href="../../tutorials/clojure-guide/" class="md-nav__link">
         Configuring Emacs as a Clojure IDE
       </a>
     </li>
@@ -3067,7 +2930,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../tutorials/debugging-clojure-script/" class="md-nav__link">
+      <a href="../../tutorials/debugging-clojure-script/" class="md-nav__link">
         Debugging Clojurescript
       </a>
     </li>
@@ -3155,7 +3018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../blog/2020/7.0-release/" class="md-nav__link">
+      <a href="../../blog/2020/7.0-release/" class="md-nav__link">
         7.0 Release
       </a>
     </li>
@@ -3251,247 +3114,112 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#lsp-face-semhl-class" class="md-nav__link">
-    lsp-face-semhl-class
+  <a href="#server" class="md-nav__link">
+    Server
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#lsp-face-semhl-comment" class="md-nav__link">
-    lsp-face-semhl-comment
+  <a href="#installation" class="md-nav__link">
+    Installation
   </a>
+  
+    <nav class="md-nav" aria-label="Installation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#debugger-not-available" class="md-nav__link">
+    Debugger: Not available
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#lsp-face-semhl-constant" class="md-nav__link">
-    lsp-face-semhl-constant
+  <a href="#available-configurations" class="md-nav__link">
+    Available configurations
+  </a>
+  
+    <nav class="md-nav" aria-label="Available configurations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-arguments" class="md-nav__link">
+    lsp-pls-arguments
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-default-library" class="md-nav__link">
-    lsp-face-semhl-default-library
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-executable" class="md-nav__link">
+    lsp-pls-executable
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-definition" class="md-nav__link">
-    lsp-face-semhl-definition
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-include" class="md-nav__link">
+    lsp-pls-include
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-deprecated" class="md-nav__link">
-    lsp-face-semhl-deprecated
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-perlcritic-enabled" class="md-nav__link">
+    lsp-pls-perlcritic-enabled
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-enum" class="md-nav__link">
-    lsp-face-semhl-enum
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-perlcritic-rc" class="md-nav__link">
+    lsp-pls-perlcritic-rc
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-event" class="md-nav__link">
-    lsp-face-semhl-event
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-perltidy-rc" class="md-nav__link">
+    lsp-pls-perltidy-rc
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-function" class="md-nav__link">
-    lsp-face-semhl-function
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-syntax-args" class="md-nav__link">
+    lsp-pls-syntax-args
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-implementation" class="md-nav__link">
-    lsp-face-semhl-implementation
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-syntax-enabled" class="md-nav__link">
+    lsp-pls-syntax-enabled
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-interface" class="md-nav__link">
-    lsp-face-semhl-interface
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-syntax-perl" class="md-nav__link">
+    lsp-pls-syntax-perl
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-keyword" class="md-nav__link">
-    lsp-face-semhl-keyword
+        
+          <li class="md-nav__item">
+  <a href="#lsp-pls-working-dir" class="md-nav__link">
+    lsp-pls-working-dir
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-label" class="md-nav__link">
-    lsp-face-semhl-label
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-macro" class="md-nav__link">
-    lsp-face-semhl-macro
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-member" class="md-nav__link">
-    lsp-face-semhl-member
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-method" class="md-nav__link">
-    lsp-face-semhl-method
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-namespace" class="md-nav__link">
-    lsp-face-semhl-namespace
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-number" class="md-nav__link">
-    lsp-face-semhl-number
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-operator" class="md-nav__link">
-    lsp-face-semhl-operator
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-parameter" class="md-nav__link">
-    lsp-face-semhl-parameter
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-property" class="md-nav__link">
-    lsp-face-semhl-property
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-regexp" class="md-nav__link">
-    lsp-face-semhl-regexp
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-static" class="md-nav__link">
-    lsp-face-semhl-static
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-string" class="md-nav__link">
-    lsp-face-semhl-string
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-struct" class="md-nav__link">
-    lsp-face-semhl-struct
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-type" class="md-nav__link">
-    lsp-face-semhl-type
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-type-parameter" class="md-nav__link">
-    lsp-face-semhl-type-parameter
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-face-semhl-variable" class="md-nav__link">
-    lsp-face-semhl-variable
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-allow-delta-requests" class="md-nav__link">
-    lsp-semantic-tokens-allow-delta-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-allow-ranged-requests" class="md-nav__link">
-    lsp-semantic-tokens-allow-ranged-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-apply-modifiers" class="md-nav__link">
-    lsp-semantic-tokens-apply-modifiers
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-enable" class="md-nav__link">
-    lsp-semantic-tokens-enable
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-honor-refresh-requests" class="md-nav__link">
-    lsp-semantic-tokens-honor-refresh-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-max-concurrent-idle-requests" class="md-nav__link">
-    lsp-semantic-tokens-max-concurrent-idle-requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lsp-semantic-tokens-warn-on-missing-face" class="md-nav__link">
-    lsp-semantic-tokens-warn-on-missing-face
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -3531,7 +3259,7 @@
 <!-- Edit button -->
 
 <a
-  href="https://github.com/emacs-lsp/lsp-mode/edit/master/lsp-semantic-tokens.el"
+  href="https://github.com/emacs-lsp/lsp-mode/edit/master/clients/lsp-pls.el"
   title="Edit this page"
   class="md-content__button md-icon"
 >
@@ -3550,196 +3278,68 @@
 
 
 <!-- Markdown content -->
-<h1 id="semantic-tokens">Semantic tokens<a class="headerlink" href="#semantic-tokens" title="Permanent link">#</a></h1>
-<h3 id="lsp-face-semhl-class"><code>lsp-face-semhl-class</code><a class="headerlink" href="#lsp-face-semhl-class" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-type-face)))</code></p>
-<p>Face used for classes.</p>
-<hr />
-<h3 id="lsp-face-semhl-comment"><code>lsp-face-semhl-comment</code><a class="headerlink" href="#lsp-face-semhl-comment" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-comment-face)))</code></p>
-<p>Face used for comments.</p>
-<hr />
-<h3 id="lsp-face-semhl-constant"><code>lsp-face-semhl-constant</code><a class="headerlink" href="#lsp-face-semhl-constant" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-constant-face))</code></p>
-<p>Face used for semantic highlighting scopes matching constant scopes.</p>
-<hr />
-<h3 id="lsp-face-semhl-default-library"><code>lsp-face-semhl-default-library</code><a class="headerlink" href="#lsp-face-semhl-default-library" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-builtin-face))</code></p>
-<p>Face used for defaultLibrary modifier.</p>
-<hr />
-<h3 id="lsp-face-semhl-definition"><code>lsp-face-semhl-definition</code><a class="headerlink" href="#lsp-face-semhl-definition" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-function-name-face :weight bold))</code></p>
-<p>Face used for definition modifier.</p>
-<hr />
-<h3 id="lsp-face-semhl-deprecated"><code>lsp-face-semhl-deprecated</code><a class="headerlink" href="#lsp-face-semhl-deprecated" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :strike-through t))</code></p>
-<p>Face used for semantic highlighting scopes matching constant scopes.</p>
-<hr />
-<h3 id="lsp-face-semhl-enum"><code>lsp-face-semhl-enum</code><a class="headerlink" href="#lsp-face-semhl-enum" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-type-face)))</code></p>
-<p>Face used for enums.</p>
-<hr />
-<h3 id="lsp-face-semhl-event"><code>lsp-face-semhl-event</code><a class="headerlink" href="#lsp-face-semhl-event" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-variable-name-face)))</code></p>
-<p>Face used for event properties.</p>
-<hr />
-<h3 id="lsp-face-semhl-function"><code>lsp-face-semhl-function</code><a class="headerlink" href="#lsp-face-semhl-function" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-function-name-face))</code></p>
-<p>Face used for semantic highlighting scopes matching entity.name.function.*.
-Unless overridden by a more specific face association.</p>
-<hr />
-<h3 id="lsp-face-semhl-implementation"><code>lsp-face-semhl-implementation</code><a class="headerlink" href="#lsp-face-semhl-implementation" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-function-name-face :weight bold))</code></p>
-<p>Face used for implementation modifier.</p>
-<hr />
-<h3 id="lsp-face-semhl-interface"><code>lsp-face-semhl-interface</code><a class="headerlink" href="#lsp-face-semhl-interface" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-type-face)))</code></p>
-<p>Face used for interfaces.</p>
-<hr />
-<h3 id="lsp-face-semhl-keyword"><code>lsp-face-semhl-keyword</code><a class="headerlink" href="#lsp-face-semhl-keyword" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-keyword-face)))</code></p>
-<p>Face used for keywords.</p>
-<hr />
-<h3 id="lsp-face-semhl-label"><code>lsp-face-semhl-label</code><a class="headerlink" href="#lsp-face-semhl-label" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-comment-face)))</code></p>
-<p>Face used for labels.</p>
-<hr />
-<h3 id="lsp-face-semhl-macro"><code>lsp-face-semhl-macro</code><a class="headerlink" href="#lsp-face-semhl-macro" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-preprocessor-face)))</code></p>
-<p>Face used for macros.</p>
-<hr />
-<h3 id="lsp-face-semhl-member"><code>lsp-face-semhl-member</code><a class="headerlink" href="#lsp-face-semhl-member" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-variable-name-face)))</code></p>
-<p>Face used for members.</p>
-<hr />
-<h3 id="lsp-face-semhl-method"><code>lsp-face-semhl-method</code><a class="headerlink" href="#lsp-face-semhl-method" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit lsp-face-semhl-function))</code></p>
-<p>Face used for semantic highlighting scopes matching entity.name.method.*.
-Unless overridden by a more specific face association.</p>
-<hr />
-<h3 id="lsp-face-semhl-namespace"><code>lsp-face-semhl-namespace</code><a class="headerlink" href="#lsp-face-semhl-namespace" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-type-face :weight bold))</code></p>
-<p>Face used for semantic highlighting scopes matching entity.name.namespace.*.
-Unless overridden by a more specific face association.</p>
-<hr />
-<h3 id="lsp-face-semhl-number"><code>lsp-face-semhl-number</code><a class="headerlink" href="#lsp-face-semhl-number" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-constant-face)))</code></p>
-<p>Face used for numbers.</p>
-<hr />
-<h3 id="lsp-face-semhl-operator"><code>lsp-face-semhl-operator</code><a class="headerlink" href="#lsp-face-semhl-operator" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-function-name-face)))</code></p>
-<p>Face used for operators.</p>
-<hr />
-<h3 id="lsp-face-semhl-parameter"><code>lsp-face-semhl-parameter</code><a class="headerlink" href="#lsp-face-semhl-parameter" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-variable-name-face)))</code></p>
-<p>Face used for parameters.</p>
-<hr />
-<h3 id="lsp-face-semhl-property"><code>lsp-face-semhl-property</code><a class="headerlink" href="#lsp-face-semhl-property" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-variable-name-face)))</code></p>
-<p>Face used for properties.</p>
-<hr />
-<h3 id="lsp-face-semhl-regexp"><code>lsp-face-semhl-regexp</code><a class="headerlink" href="#lsp-face-semhl-regexp" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-string-face :slant italic)))</code></p>
-<p>Face used for regexps.</p>
-<hr />
-<h3 id="lsp-face-semhl-static"><code>lsp-face-semhl-static</code><a class="headerlink" href="#lsp-face-semhl-static" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-keyword-face))</code></p>
-<p>Face used for static modifier.</p>
-<hr />
-<h3 id="lsp-face-semhl-string"><code>lsp-face-semhl-string</code><a class="headerlink" href="#lsp-face-semhl-string" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-string-face)))</code></p>
-<p>Face used for keywords.</p>
-<hr />
-<h3 id="lsp-face-semhl-struct"><code>lsp-face-semhl-struct</code><a class="headerlink" href="#lsp-face-semhl-struct" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-type-face)))</code></p>
-<p>Face used for structs.</p>
-<hr />
-<h3 id="lsp-face-semhl-type"><code>lsp-face-semhl-type</code><a class="headerlink" href="#lsp-face-semhl-type" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-type-face)))</code></p>
-<p>Face used for types.</p>
-<hr />
-<h3 id="lsp-face-semhl-type-parameter"><code>lsp-face-semhl-type-parameter</code><a class="headerlink" href="#lsp-face-semhl-type-parameter" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t (:inherit font-lock-type-face)))</code></p>
-<p>Face used for type parameters.</p>
-<hr />
-<h3 id="lsp-face-semhl-variable"><code>lsp-face-semhl-variable</code><a class="headerlink" href="#lsp-face-semhl-variable" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>face</code></p>
-<p><em>Default:</em> <code>((t :inherit font-lock-variable-name-face))</code></p>
-<p>Face used for semantic highlighting scopes matching variable.*.
-Unless overridden by a more specific face association.</p>
-<hr />
-<h3 id="lsp-semantic-tokens-allow-delta-requests"><code>lsp-semantic-tokens-allow-delta-requests</code><a class="headerlink" href="#lsp-semantic-tokens-allow-delta-requests" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>boolean</code></p>
-<p><em>Default:</em> <code>t</code></p>
-<p>Whether to use semantic token delta requests when available.</p>
-<p>When supported by the language server, delta requests are always
-preferred over both full and ranged token requests.</p>
-<hr />
-<h3 id="lsp-semantic-tokens-allow-ranged-requests"><code>lsp-semantic-tokens-allow-ranged-requests</code><a class="headerlink" href="#lsp-semantic-tokens-allow-ranged-requests" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>boolean</code></p>
-<p><em>Default:</em> <code>t</code></p>
-<p>Whether to use ranged semantic token requests when available.</p>
-<p>Note that even when this is set to t, delta requests will
-be preferred whenever possible, unless
-<code>lsp-semantic-tokens-allow-delta-requests</code> is false.</p>
-<hr />
-<h3 id="lsp-semantic-tokens-apply-modifiers"><code>lsp-semantic-tokens-apply-modifiers</code><a class="headerlink" href="#lsp-semantic-tokens-apply-modifiers" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>boolean</code></p>
-<p><em>Default:</em> <code>t</code></p>
-<p>Whether semantic tokens should take token modifiers into account.</p>
-<hr />
-<h3 id="lsp-semantic-tokens-enable"><code>lsp-semantic-tokens-enable</code><a class="headerlink" href="#lsp-semantic-tokens-enable" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>boolean</code></p>
+<h1 id="pls">PLS<a class="headerlink" href="#pls" title="Permanent link">#</a></h1>
+<h2 id="server">Server<a class="headerlink" href="#server" title="Permanent link">#</a></h2>
+<p>For more information about the LSP server, check <a href="https://metacpan.org/pod/PLS">Perl Language Server</a>.</p>
+<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">#</a></h2>
+<p><code>cpan PLS</code></p>
+<h3 id="debugger-not-available">Debugger: Not available<a class="headerlink" href="#debugger-not-available" title="Permanent link">#</a></h3>
+<h2 id="available-configurations">Available configurations<a class="headerlink" href="#available-configurations" title="Permanent link">#</a></h2>
+<h3 id="lsp-pls-arguments"><code>lsp-pls-arguments</code><a class="headerlink" href="#lsp-pls-arguments" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(repeat 'string)</code></p>
 <p><em>Default:</em> <code>nil</code></p>
-<p>Enable/disable support for semantic tokens.
-As defined by the Language Server Protocol 3.16.</p>
+<p>Additional arguments needed to execute PLS.</p>
 <hr />
-<h3 id="lsp-semantic-tokens-honor-refresh-requests"><code>lsp-semantic-tokens-honor-refresh-requests</code><a class="headerlink" href="#lsp-semantic-tokens-honor-refresh-requests" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>boolean</code></p>
+<h3 id="lsp-pls-executable"><code>lsp-pls-executable</code><a class="headerlink" href="#lsp-pls-executable" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(string)</code></p>
+<p><em>Default:</em> <code>pls</code></p>
+<p>Full path to the PLS executable.</p>
+<hr />
+<h3 id="lsp-pls-include"><code>lsp-pls-include</code><a class="headerlink" href="#lsp-pls-include" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(repeat 'string)</code></p>
 <p><em>Default:</em> <code>nil</code></p>
-<p>Whether to honor semanticTokens/refresh requests.</p>
-<p>When set to nil, refresh requests will be silently discarded.
-When set to t, semantic tokens will be re-requested for all buffers
-associated with the requesting language server.</p>
+<p>Paths to be added to your @INC.</p>
 <hr />
-<h3 id="lsp-semantic-tokens-max-concurrent-idle-requests"><code>lsp-semantic-tokens-max-concurrent-idle-requests</code><a class="headerlink" href="#lsp-semantic-tokens-max-concurrent-idle-requests" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>integer</code></p>
-<p><em>Default:</em> <code>1</code></p>
-<p>Maximum number of on-idle token requests to be dispatched simultaneously.</p>
+<h3 id="lsp-pls-perlcritic-enabled"><code>lsp-pls-perlcritic-enabled</code><a class="headerlink" href="#lsp-pls-perlcritic-enabled" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(boolean)</code></p>
+<p><em>Default:</em> <code>t</code></p>
+<p>Enable perlcritic checking.</p>
 <hr />
-<h3 id="lsp-semantic-tokens-warn-on-missing-face"><code>lsp-semantic-tokens-warn-on-missing-face</code><a class="headerlink" href="#lsp-semantic-tokens-warn-on-missing-face" title="Permanent link">#</a></h3>
-<p><em>Type:</em> <code>boolean</code></p>
+<h3 id="lsp-pls-perlcritic-rc"><code>lsp-pls-perlcritic-rc</code><a class="headerlink" href="#lsp-pls-perlcritic-rc" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(string)</code></p>
 <p><em>Default:</em> <code>nil</code></p>
-<p>Warning on missing face for token type/modifier.
-When non-nil, this option will emit a warning any time a token
-or modifier type returned by a language server has no face associated with it.</p>
+<p>Path to your .perlcriticrc file.
+Default is "~/.perlcriticrc" when not configured.</p>
+<hr />
+<h3 id="lsp-pls-perltidy-rc"><code>lsp-pls-perltidy-rc</code><a class="headerlink" href="#lsp-pls-perltidy-rc" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(string)</code></p>
+<p><em>Default:</em> <code>nil</code></p>
+<p>Path to your .perltidyrc file.
+Default is "~/.perltidyrc" when not configured.</p>
+<hr />
+<h3 id="lsp-pls-syntax-args"><code>lsp-pls-syntax-args</code><a class="headerlink" href="#lsp-pls-syntax-args" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(repeat 'string)</code></p>
+<p><em>Default:</em> <code>nil</code></p>
+<p>Additional arguments to pass to Perl when syntax checking.
+This is useful if there is a BEGIN block in your code that
+changes behavior depending on the contents of @ARGV.</p>
+<hr />
+<h3 id="lsp-pls-syntax-enabled"><code>lsp-pls-syntax-enabled</code><a class="headerlink" href="#lsp-pls-syntax-enabled" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(boolean)</code></p>
+<p><em>Default:</em> <code>t</code></p>
+<p>Enable syntax checking.</p>
+<hr />
+<h3 id="lsp-pls-syntax-perl"><code>lsp-pls-syntax-perl</code><a class="headerlink" href="#lsp-pls-syntax-perl" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(string)</code></p>
+<p><em>Default:</em> <code>nil</code></p>
+<p>Full path to an alternate perl used for syntax checking.
+By default, the perl used to run PLS will be used.</p>
+<hr />
+<h3 id="lsp-pls-working-dir"><code>lsp-pls-working-dir</code><a class="headerlink" href="#lsp-pls-working-dir" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>(string)</code></p>
+<p><em>Default:</em> <code>nil</code></p>
+<p>Working directory to run PLS in.
+Defaults to the workspace root when not configured.</p>
 <hr />
 
 <!-- Source file information -->
@@ -3767,7 +3367,7 @@ or modifier type returned by a language server has no face associated with it.</
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../icons/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Icons" rel="prev">
+        <a href="../lsp-pascal/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Pascal/Object Pascal" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -3776,20 +3376,20 @@ or modifier type returned by a language server has no face associated with it.</
               <span class="md-footer__direction">
                 Previous
               </span>
-              Icons
+              Pascal/Object Pascal
             </div>
           </div>
         </a>
       
       
         
-        <a href="../dired/" class="md-footer__link md-footer__link--next" aria-label="Next: Dired" rel="next">
+        <a href="../lsp-perl/" class="md-footer__link md-footer__link--next" aria-label="Next: Perl (Perl::LanguageServer)" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Dired
+              Perl (Perl::LanguageServer)
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -3850,12 +3450,12 @@ or modifier type returned by a language server has no face associated with it.</
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../../assets/javascripts/workers/search.01824240.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.01824240.min.js"}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.e8a254df.min.js"></script>
+      <script src="../../assets/javascripts/bundle.e8a254df.min.js"></script>
       
-        <script src="../../../js/expanded_nav.js"></script>
+        <script src="../../js/expanded_nav.js"></script>
       
     
   </body>
